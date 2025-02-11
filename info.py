@@ -30,7 +30,7 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ak:ak@cluster0.ftsd9
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'akmovie')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002208313355'))
-QR_CODE = environ.get('QR_CODE', '')
+QR_CODE = environ.get('QR_CODE', 'https://envs.sh/a_.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002463332367').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
@@ -40,10 +40,10 @@ URL = environ.get('URL', '')
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002208313355'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/akhowtoopenlinks/32")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/akhowtoopenlinks/35")
 TUTORIAL2 = environ.get("TUTORIAL2", "")
 TUTORIAL3 = environ.get("TUTORIAL3", "")
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/45a270fc6a0a1c183c614.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "2521c9849b6ce96bdeaf4f6f4f9834b6")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shrtfly.com")
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
@@ -58,7 +58,7 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
 auth_channel = environ.get('AUTH_CHANNEL', '-1001785093771')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002401879443'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/+U9ABfC7hu1EyZjU1'))
 
 # bot settings
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
