@@ -28,7 +28,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akz:akz@cluster0.chdmq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ak:ak@cluster0.ftsd9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'akmovir')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'akmovie')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002208313355'))
 QR_CODE = environ.get('QR_CODE', '')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002463332367').split()]
@@ -38,7 +38,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002493002460'))
 URL = environ.get('URL', '')
 
 # verify system vars
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002208313355'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/akhowtoopenlinks/32")
 TUTORIAL2 = environ.get("TUTORIAL2", "")
