@@ -38,7 +38,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002493002460'))
 URL = environ.get('URL', '')
 
 # verify system vars
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002453651327'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/akhowtoopenlinks/35")
 TUTORIAL2 = environ.get("TUTORIAL2", "")
