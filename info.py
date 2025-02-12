@@ -23,13 +23,13 @@ API_HASH = environ.get('API_HASH', '7ea2149629e445936619f06a3c0dc716')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7251898668').split()]
 USERNAME = environ.get('USERNAME', 'http://t.me/AK_ownerbot')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002405776043'))
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001855645227 -1001769437975').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akz:akz@cluster0.chdmq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002288239854'))
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001855645227 -1001769437975 -1002414125549').split()]
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aklat:aklat@cluster0.yzchy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ak:ak@cluster0.ftsd9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'akmovie')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002208313355'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002374888453'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/a_.jpg')
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002463332367').split()]
 
@@ -39,7 +39,7 @@ URL = environ.get('URL', '')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002208313355'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002453651327'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/akhowtoopenlinks/35")
 TUTORIAL2 = environ.get("TUTORIAL2", "")
 TUTORIAL3 = environ.get("TUTORIAL3", "")
