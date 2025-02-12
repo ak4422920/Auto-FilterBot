@@ -52,7 +52,7 @@ User - {}"""
 ❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
 """
 
-    FILE_CAPTION = """<b><a href=https://t.me/akmovieshubbackup>{file_name} </a></b>
+    FILE_CAPTION = """<b>{file_name}\n\n𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/AkMoviesHubBackup">𝘼𝙠𝙈𝙤𝙫𝙞𝙚𝙨𝙃𝙪𝙗𝘽𝙖𝙘𝙠𝙪𝙥</a>」</b>
 
 <i>ᴘʟᴇᴀsᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪs ꜰɪʟᴇs ᴛᴏ ᴛʜᴇ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ</i>"""
 
@@ -104,7 +104,7 @@ User - {}"""
 •─────•─────────•─────•
 
 
-✨ ᴜᴘɪ ɪᴅ - <code>http://t.me/AK_ownerbot</code>
+🆔 ᴜᴘɪ ɪᴅ ➩ <code>@AK_ownerbot</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ ᴀɴᴅ ᴍsɢ]
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ  /myplan
 
@@ -229,5 +229,5 @@ User - {}"""
 
 ❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡
 
-💖 𝐔𝐏𝐈 𝐈𝐃 : <code>http://t.me/AK_ownerbot</code>
+💖 𝐔𝐏𝐈 𝐈𝐃 : <code>@AK_ownerbot</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ ᴀɴᴅ ᴍsɢ]
 """
